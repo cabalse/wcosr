@@ -36,11 +36,11 @@ const kryptCon: PageContentInterface = {
     //   internalUrl: '/kryptcon2',
     //   type: BlockComponentType.LinkBlock,
     // } as LinkBlockInterface,
-    // {
-    //   linkText: 'KryptCon 3',
-    //   disabled: true,
-    //   type: BlockComponentType.LinkBlock,
-    // } as LinkBlockInterface,
+    {
+      linkText: 'KryptCon 3',
+      internalUrl: '/kryptcon3',
+      type: BlockComponentType.LinkBlock,
+    } as LinkBlockInterface,
     // {
     //   linkText: 'KryptCon 4',
     //   disabled: true,

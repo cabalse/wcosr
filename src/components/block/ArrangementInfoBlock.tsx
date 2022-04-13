@@ -22,8 +22,8 @@ const ArrangementInfoBlock = (
     <div>{`Spelledare: ${dm}`}</div>
     <div>{`Pass: ${slot}`}</div>
     <div>{`Antal spelare: ${players}`}</div>
-    <div>{`Språk: ${language}`}</div>
-    <div>{`Åldersgräns: ${age}`}</div>
+    {language ? <div>{`Språk: ${language}`}</div> : null}
+    {age ? <div>{`Åldersgräns: ${age}`}</div> : null}
   </div>
 );
 
