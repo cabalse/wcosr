@@ -11,6 +11,7 @@ import kc2021TShirt from './data/kryptcon/kc2021TShirt';
 import kcSLTShirt from './data/kryptcon/kcSLTShirt';
 import { kryptCon, kryptCon1, kryptCon2 } from './data/kryptcon/kryptCon';
 import kryptCon5 from './data/kryptcon/kryptcon5';
+import kryptCon6 from './data/kryptcon/kryptcon6';
 import whatIsOsr from './data/what-is-osr';
 
 function App(): ReactElement {
@@ -31,6 +32,9 @@ function App(): ReactElement {
         </Route>
         <Route path="/kryptcon5">
           <Page {...kryptCon5} />
+        </Route>
+        <Route path="/kryptcon6">
+          <Page {...kryptCon6} />
         </Route>
         <Route path="/what-is-osr">
           <Page {...whatIsOsr} />

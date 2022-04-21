@@ -16,10 +16,6 @@ const kryptCon: PageContentInterface = {
         men har under pandemin 20-21 legat i träda. Men nu är vi igång igen.`,
       },
       {
-        text: `Nedan hittar du länk till information kring KryptCon 5 och de arrangemang det kommer att innehålla. Listan kommer att fyllas
-        på mellan 18/10 o 22/10. Den 22/10 öppnar vi anmälan!`,
-      },
-      {
         text: `Vi håller på att flytta över informationen från vår gamla, nedlagd, sajt, därav att det är lite stökigt. Tillsist kommer
         alla gamla KryptCon att finnas tillgängliga för den som vill gå en trip down memory-lane.`,
         class: 'italic',
@@ -49,6 +45,11 @@ const kryptCon: PageContentInterface = {
     {
       linkText: 'KryptCon 5',
       internalUrl: '/kryptcon5',
+      type: BlockComponentType.LinkBlock,
+    } as LinkBlockInterface,
+    {
+      linkText: 'KryptCon 6',
+      internalUrl: '/kryptcon6',
       type: BlockComponentType.LinkBlock,
     } as LinkBlockInterface,
   ],
